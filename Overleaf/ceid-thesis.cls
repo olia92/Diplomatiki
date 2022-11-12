@@ -11,7 +11,7 @@
 % Class Information
 \def\filename{ceid-thesis}
 \def\fileversion{1.0}
-\def\filedate{2014/10/25}
+\def\filedate{2022/11/12}
 \NeedsTeXFormat{LaTeX2e}[1996/12/01]
 \ProvidesClass{ceid-thesis}[%
     \filedate\space\fileversion\space LaTeX document class.]
@@ -189,36 +189,36 @@
                     \@approval
                 \end{minipage}
 
-        %     \vfill
-        %     \begin{center}
-        %         \thesisPlaceDate
-        %     \end{center}
-        %     %
-        %     \fi
-        %   \new@tpage
-        %   \begin{minipage}[b]{\textwidth}
-        %      \@mysig
-        %   \end{minipage}
+            \vfill
+            \begin{center}
+                \thesisPlaceDate
+            \end{center}
+            %
+            \fi
+           \new@tpage
+           \begin{minipage}[b]{\textwidth}
+             \@mysig
+           \end{minipage}
 
-        %     \cleardoublepage
-        %     \if@twoside\new@tpage
-        %         \noindent
-        %         \begin{minipage}[t]{\textwidth}
-        %             \@uppertitleback
-        %         \end{minipage}
-        %         \par
-        %         \vfill
-        %         \noindent
-        %         \begin{minipage}{\textwidth}
-        %             \@middletitleback
-        %         \end{minipage}
-        %         \par
-        %         \vfill
-        %         \noindent
-        %         \begin{minipage}[b]{\textwidth}
-        %             \@lowertitleback
-        %         \end{minipage}
-        %     \fi
+            \cleardoublepage
+            \if@twoside\new@tpage
+                \noindent
+                \begin{minipage}[t]{\textwidth}
+                    \@uppertitleback
+                \end{minipage}
+                \par
+                \vfill
+                \noindent
+                \begin{minipage}{\textwidth}
+                    \@middletitleback
+                \end{minipage}
+                \par
+                \vfill
+                \noindent
+                \begin{minipage}[b]{\textwidth}
+                    \@lowertitleback
+                \end{minipage}
+            \fi
     \end{titlepage}
     %
     \renewcommand{\thefootnote}{\arabic{footnote}}
@@ -246,8 +246,8 @@
 % More Names
 \translator{Διπλωματική Εργασία}
 \institution{ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ}
-\department{ΠΟΛΥΤΕΧΝΙΚΗ ΣΧΟΛΗ}
-\division{ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ}
+\department{ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ}
+\division{ΤΟΜΕΑΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΠΛΗΡΟΦΟΡΙΑΣ}
 
 
 \uppertitleback{
@@ -451,7 +451,7 @@
                 	\node[draw=none, align=center] at (3.5,-1) {\textbf{ΔΙΠΛΩΜΑΤΙΚΗ}  \\ \textbf{ΕΡΓΑΣΙΑ} \\[5pt] ΠΑΤΡΑ,  \\ #3 \\ #4};
                    \node[draw=none, text width=3.5cm, align=center] at (-3.5,-1) {\textbf{#2}};
 			\node[draw=none,text width=#5cm, align=center] at (0,3) {\fontsize{9}{10.8}\selectfont \textbf{#1} \fontsize{7}{8.4}\selectfont};   
-	             \path [decorate,decoration={raise=-1ex, text along path, reverse path, text align={center}, text={PANEPISTIMIO PATRWN - POLITEXNIKH SXOLH - TMHMA HLEKTROLOGON MIXANIKON KAI TEXNOLOGIAS YPOLOHISTON}}] (4.7cm,-2.8cm) arc (-30:210:5.45cm) ;
+	             \path [decorate,decoration={raise=-1ex, text along path, reverse path, text align={center}, text={PANEPISTHMIO PATRWN - TMHMA HLEKTROLOGWN MHXANIKWN KAI TEXNOLOGIAS UPOLOGISTWN}}] (4.7cm,-2.8cm) arc (-30:210:5.45cm) ;
 	        \end{tikzpicture}
 	        };
 	     \ADD{-13.5}{\upperlabelxoffset}{\xx} \ADD{-12}{\upperlabelyoffset}{\yy}
@@ -478,7 +478,7 @@
                 	\node[draw=none, align=center] at (3.5,-1) {\textbf{ΔΙΠΛΩΜΑΤΙΚΗ}  \\ \textbf{ΕΡΓΑΣΙΑ}  \\[5pt] ΠΑΤΡΑ,  \\ #3 \\ #4};
                    \node[draw=none, text width=3.5cm, align=center] at (-3.5,-1) {\textbf{#2}};
 			\node[draw=none,text width=#5cm, align=center] at (0,3) {\fontsize{9}{10.8}\selectfont \textbf{#1} \fontsize{7}{8.4}\selectfont};   
-	             \path [decorate,decoration={raise=-1ex, text along path, reverse path, text align={center}, text={PANEPISTIMIO PATRWN - POLITEXNIKH SXOLH - TMHMA MHXANIKWN YPOLOGISTWN KAI PLHROFORIKHS}}] (4.7cm,-2.8cm) arc (-30:210:5.45cm) ;
+	             \path [decorate,decoration={raise=-1ex, text along path, reverse path, text align={center}, text={PANEPISTHMIO PATRWN - TMHMA HLEKTROLOGWN MHXANIKWN KAI TEXNOLOGIAS UPOLOGISTWN}}] (4.7cm,-2.8cm) arc (-30:210:5.45cm) ;
 	        \end{tikzpicture}
 	        };
 	     \ADD{-13.5}{\lowerlabelxoffset}{\xxxx} \ADD{-26.8}{\lowerlabelyoffset}{\yyyy}
@@ -512,7 +512,7 @@
 			\draw[thick] (-5.8,-5.8) rectangle (5.8,5.8); 
 			\draw[dashed] (-6,-6) rectangle (6,6); 
 			\node at (-4.6,4.4){\includegraphics[width=1.8cm]{static/figures/PatrasLogo.png}};
-                   \node[draw=none, text width=9cm, align=left] at (1,4.3) {ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ \\ ΠΟΛΥΤΕΧΝΙΚΗ ΣΧΟΛΗ \\ ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ};
+                   \node[draw=none, text width=9cm, align=left] at (1,4.3) {ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ \\ ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ};
                    \node[draw=none, text width=9cm, align=center] at (0,2.3) {ΔΙΠΛΩΜΑΤΙΚΗ ΕΡΓΑΣΙΑ};
 			\node[draw=none,text width=#5cm, align=center] at (0,0) {\fontsize{11}{13.2}\selectfont \textbf{#1} \fontsize{8}{9.6}\selectfont};   
                    \node[draw=none, text width=7cm, align=center] at (0,-2.5) {\textbf{#2}};
@@ -531,7 +531,7 @@
 			\draw[thick] (-5.8,-5.8) rectangle (5.8,5.8); 
 			\draw[dashed] (-6,-6) rectangle (6,6);
 			\node at (-4.6,4.4){\includegraphics[width=1.8cm]{static/figures/PatrasLogo.png}};
-                   \node[draw=none, text width=9cm, align=left] at (1,4.3) {ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ \\ ΠΟΛΥΤΕΧΝΙΚΗ ΣΧΟΛΗ \\ ΤΜΗΜΑ ΜΗΧΑΝΙΚΩΝ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ};
+                   \node[draw=none, text width=9cm, align=left] at (1,4.3) {ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ \\ ΤΜΗΜΑ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ ΚΑΙ ΤΕΧΝΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΤΩΝ};
                    \node[draw=none, text width=9cm, align=center] at (0,2.3) {ΔΙΠΛΩΜΑΤΙΚΗ ΕΡΓΑΣΙΑ};
 			\node[draw=none,text width=#5cm, align=center] at (0,0) {\fontsize{11}{13.2}\selectfont \textbf{#1} \fontsize{8}{9.6}\selectfont};   
                    \node[draw=none, text width=7cm, align=center] at (0,-2.5) {\textbf{#2}};
